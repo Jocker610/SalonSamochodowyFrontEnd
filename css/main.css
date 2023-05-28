@@ -1,0 +1,160 @@
+body
+{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav
+{
+    width: 95%;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* nawigacja*/
+.up
+{
+    
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.up h2
+{
+    color: lightgrey;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+.up h2:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+
+
+.upimg
+{
+    
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    
+}
+.upimg img
+{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+
+
+/*koniec nawigacji*/
+
+.glowna
+{
+display:flex;
+align-items: left;
+justify-content: space-around;
+padding-top: 60px;
+padding-left: 100px;
+padding-right: 100px;
+color: lightgrey;
+}
+h1
+{
+    text-align: center;
+    
+}
+
+.mainimg
+{
+    min-width: 400px;
+    max-height: 675px;
+    width: 70%;
+    height:70%;
+    border-radius: 5%;
+    padding-right: 15px;
+}
+.mainimg1
+{
+    min-width: 400px;
+    max-height: 675px;
+    width: 70%;
+    height:70%;
+    border-radius: 5%;
+    padding-left: 15px;
+}
+.akapit {
+
+    text-indent: 40px;
+    font-size: 19px;
+    text-align: justify;
+    width: 100%;
+    
+    
+}
+
+.seemore
+{
+    color: orange;
+    text-align: left;
+}
+.seemore1:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+.seemore:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+.seemore1
+{
+    color: orange;
+    text-align: right;
+    
+}
+
+.timer
+{
+    color: lightgrey;
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+}
+.button
+{
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.button button
+{
+    color: black;
+    background-color: rgb(42, 228, 228);
+    border: 0px;
+    width: 400px;
+    height: 100px;
+    border-radius: 5%;
+
+}
+.button button:hover
+{
+    text-decoration: none;
+    background-color: orange;
+}

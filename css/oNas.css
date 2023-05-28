@@ -1,0 +1,171 @@
+body
+{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav
+{
+    width: 95%;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* nawigacja*/
+.up
+{
+    
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.up h2
+{
+    color: lightgrey;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+.up h2:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+
+
+.upimg
+{
+    
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    
+}
+.upimg img
+{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+header
+{
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.glowna
+{
+display:flex;
+align-items: left;
+justify-content: space-around;
+padding-top: 30px;
+padding-left: 20px;
+padding-right: 20px;
+color: darkgrey;
+}
+.glowna1
+{
+display:flex;
+justify-content:space-between;
+padding-top: 30px;
+padding-left: 20px;
+padding-right: 20px;
+color: darkgrey;
+padding-bottom: 5%;
+
+}
+.glowna1 div
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+.glowna1 h3 
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.glowna1 img
+{
+    margin-left: 10%;
+    
+}
+
+h3
+{
+text-align: justify;
+margin-top: 5px;
+
+}
+.mainimg
+{
+    min-width: 400px;
+    max-height: 675px;
+    width: 150%;
+    height:150%;
+    border-radius: 5%;
+    padding-right: 15px;
+}
+.mainimg1
+{
+    min-width: 400px;
+    max-height: 675px;
+    width:55%;
+    height:50%;
+    border-radius: 5%;
+    margin-left: 50px;
+    
+    
+    
+}
+.akapit {
+
+    
+    font-size: 19px;
+    text-align: justify;
+    width: 100%;
+    
+}
+.akapit1 {
+
+    
+    font-size: 19px;
+    width: 100%;
+    
+}
+h4
+{
+    color: orange;
+    margin: 0;
+    font-size: 16px;
+}
+
+h2
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timer
+{
+    color: lightgrey;
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+}
+
+
